@@ -1,0 +1,2 @@
+#!/bin/zsh
+docker run --rm -it -v /Users/gehrman/Devel/clojure-koans:/app -w /app clojure "$@"
